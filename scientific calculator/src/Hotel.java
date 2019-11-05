@@ -8,7 +8,7 @@ import java.awt.Color;
 
 public class Hotel {
 
-	private JFrame frame;
+	JFrame frame;
 
 	/**
 	 * Launch the application.

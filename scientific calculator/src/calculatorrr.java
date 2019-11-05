@@ -672,6 +672,7 @@ public class calculatorrr {
 		btnConvert.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				double bp=Double.parseDouble(txt2.getText());
+				
 				if(comboBox.getSelectedItem().equals("USD"))
 				{
 					String c=String.format("Rs%.2f",bp*usd);
